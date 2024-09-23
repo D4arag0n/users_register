@@ -14,7 +14,7 @@ class Sustentante extends Model
         'entidad_id',
         'perfil_profesional_id',
         'motivo_no_concluyo_id',
-        'entecedente_academico_id',
+        'antecedente_academico_id',
         'usuario_id',
         'estado_radica_id',
         'nivel_educativo_id',

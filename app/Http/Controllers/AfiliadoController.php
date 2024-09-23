@@ -8,6 +8,10 @@ use App\Models\Afiliado;
 class AfiliadoController extends Controller
 {
     //
+    public function index(){
+        return view('inicio');
+    }
+    
     public function store(Request $request){
         $this->validate($request, [
             'curp' => 'required',

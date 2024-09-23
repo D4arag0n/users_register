@@ -370,13 +370,13 @@
                 <legend>Datos de acceso</legend>
                 <div class="grid grid-cols-1 gap-6">
                     <div class="">
-                        <label for="usuario" class="block font-bold text-sm pb-2">Usuario (Correo electrónico)</label>
-                        <input type="text" name="usuario" id="usuario" class="w-full border px-2 py-2 rounded-md 
-                        @error('usuario')
+                        <label for="email" class="block font-bold text-sm pb-2">Usuario (Correo electrónico)</label>
+                        <input type="text" name="email" id="email" class="w-full border px-2 py-2 rounded-md 
+                        @error('email')
                             border-red-500
                         @enderror" 
-                        placeholder="Introduce tu correo electrónico" value="{{old('usuario')}}">
-                        @error('usuario')
+                        placeholder="Introduce tu correo electrónico" value="{{old('email')}}">
+                        @error('email')
                             <p class="my-2 text-red-500">{{$message}}</p>
                         @enderror
                     </div>
